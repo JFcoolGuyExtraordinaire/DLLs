@@ -9,6 +9,7 @@ public class FtCtK {
     public static void main(String[] args) throws FileNotFoundException {
         DList list = new DList();
         Node node;
+        System.out.println("hello there");
         DecimalFormat deci = new DecimalFormat("#.00");
         File file = new File("C:\\Users\\Student\\Documents\\NetBeansProjects\\FtCtK\\data\\temp.txt");     
         Scanner scan = new Scanner(file);
